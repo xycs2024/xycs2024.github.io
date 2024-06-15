@@ -1,7 +1,75 @@
 @charset "utf-8";
 /* CSS Document */
 
+.w{
+    width：1200px;
+    margin:auto;
+}
 
+/* 清除标签默认的内外边距 */
+* {
+   padding: 0;     
+   margin: 0;
+}
+
+/* 清除列表默认样式 ( 主要是前面的点 ) */
+li {
+	list-style: none;
+}
+
+/* 设置总体背景 */
+body {
+	background-color: #FFFFFF;
+}
+
+/* 插入图片自适应 */
 img {
   display: block;
+}
+
+.logo {
+	/* 靠左侧浮动 */
+	float: left;
+	/* 设置与 导航栏盒子 的外边距 */
+	margin-right: 60px;
+}
+
+/* 导航栏设置 左浮动 */
+.nav {
+	float: left;
+	
+}
+
+/* 导航栏内部 的 无序列表 设置左浮动 */
+.nav ul li {
+	/* 设置 无序列表项 从左到右排列 */
+	float: left;
+}
+
+/* 设置无序列表中的链接样式 */
+.nav ul li a {
+	/* 显示模式 块级元素 */
+	display: block;
+	/* 高度 40 像素 , 总高度 42 像素 , 有 2 像素的下边框 */
+	height: 40px;
+	/* 上下内边距 0 像素 , 左右内边距 10 像素 */
+	padding: 10px 10px;
+	/* 右外边距 20 像素 */
+	margin-right: 20px;
+	/* 行高 = 内容高度 垂直居中 */
+	line-height: 40px;
+	/* 字体大小 */
+	font-size: 18px;
+	/* 字体颜色 */
+	color: #050505;
+	/* 取消链接下方的横线 */
+	text-decoration: none;
+	/* 调试时使用的背景 */
+	background: #FFFFFF;
+}
+
+/* 鼠标经过链接时的样式 */
+.nav ul li a:hover {
+	/* 鼠标经过导航栏链接 , 底部显示 2 像素的 #00a4ff 颜色实线 */
+	border-bottom: 2px solid #00a4ff;
 }
