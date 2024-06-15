@@ -31,7 +31,7 @@ img {
 	/* 靠左侧浮动 */
 	float: left;
 	/* 设置与 导航栏盒子 的外边距 */
-	margin-right: 60px;
+	margin-right: 370px;
 }
 
 /* 导航栏设置 左浮动 */
@@ -52,7 +52,7 @@ img {
 	display: block;
 	/* 高度 40 像素 , 总高度 42 像素 , 有 2 像素的下边框 */
 	height: 40px;
-	/* 上下内边距 0 像素 , 左右内边距 10 像素 */
+	/* 上下内边距 10 像素 , 左右内边距 10 像素 */
 	padding: 10px 10px;
 	/* 右外边距 20 像素 */
 	margin-right: 20px;
